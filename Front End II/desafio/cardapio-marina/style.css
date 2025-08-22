@@ -1,0 +1,133 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f0ec;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+
+.cabecalho {
+    background-color: #261206;
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.cabecalho ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 40px;
+}
+
+.cabecalho a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.cabecalho a:hover {
+    color: #ffd54f;
+}
+
+
+.titulo {
+    text-align: center;
+    color:  #734022;
+    margin: 20px 0;
+    font-size: 2.5rem;
+}
+
+
+.introducao {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    text-align: center;
+    max-width: 800px;
+    margin-inline: auto;
+}
+
+
+.cima img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+h2 {
+    color: #4e342e;
+    border-bottom: 2px solid #a1887f;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #5d4037;
+    margin-bottom: 10px;
+}
+
+.quente, .gelada, .comidinha, .bug {
+    background-color: #fff8f0;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-left: 6px solid #bcaaa4;
+    border-radius: 10px;
+}
+
+
+ol, ul {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+strong {
+    color: #3e2723;
+}
+
+mark {
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+
+del {
+    color: #b71c1c;
+}
+
+ins {
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.rodapé {
+    text-align: center;
+    background-color: #261206;
+    color: white;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 40px;
+    font-size: 0.95rem;
+}
+
+.rodapé abbr {
+    cursor: help;
+    text-decoration: underline dotted;
+    color: #ffd54f;
+}

@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Georgia', serif;
+    background-color: #fff8f0;
+    color: #5c4033;
+    line-height: 1.6;
+    padding: 20px;
+    
+  }
+  
+  .navbar {
+    background-color: #f8e1d4;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .navbar h1 {
+    font-size: 2.5em;
+  }
+  
+  .titulo, h2 {
+    color: #8b5e3c;
+    margin-top: 20px;
+    font-size: 1.8em;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  ul, ol, dl {
+    margin: 10px 20px;
+  }
+  
+  ul li a {
+    color: #8b5e3c;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+
+  
+  .imagem{
+  
+    text-align: center;
+  }
+  .imagem-artesanato{
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  .produtos, .principal {
+    background: #fffdf8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(140, 100, 70, 0.1);
+  }
+  
+  .categoria, .boas-vindas, .categorias, .glossario {
+    margin-bottom: 20px;
+  }
+  .boas-vindas{
+    text-align: center;
+  }
+  
+  .rodape {
+    margin-top: 40px;
+    padding-top: 10px;
+    border-top: 1px solid #d9c7b8;
+    text-align: center;
+    font-size: 0.9em;
+    color: #a18976;
+  }
+  
+  /* Ícone na aba do navegador */
+  link[rel="icon"] {
+    content: url('img/favicon.png');
+  }
+  
