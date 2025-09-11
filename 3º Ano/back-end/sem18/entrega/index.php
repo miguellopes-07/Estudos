@@ -205,7 +205,8 @@
     </main>
     <hr>
     <footer>
-        <p><small>&copy; Coral-Miguel | Todos os direitos reservados.dadsadas</small></p>
+      <p><small>&copy; Coral-Miguel | Todos os direitos reservados</small></p>
+
     </footer>
 </body>
 
