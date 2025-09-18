@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: 'roboto';
+    line-height: 1.5;
+    background-color: red;
+    color: ;
+}
+h1{
+    font-family: 'great vibes';
+    font-weight: lighter;
+}
