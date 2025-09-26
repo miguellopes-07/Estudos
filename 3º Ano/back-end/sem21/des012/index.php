@@ -22,7 +22,7 @@
             <input type="number" name="seg" id="seg" min="0" step="1" required value="<?=$total?>">
             <input type="submit" value="Calcular">
         </form>
-    </main>
+    </main> 
 
     <?php
     $sobra = $total;
