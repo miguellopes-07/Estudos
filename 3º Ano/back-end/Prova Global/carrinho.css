@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'pczin';
+    src: url(assets/font/Chakra_Petch/ChakraPetch-Regular.ttf);
+}
+:root {
+--azul: #167CBF;
+--azulescuro: #0C598B;
+--laranja: #F2790F;
+--cinza: #CACACA;
+--branco: #FFFFFF;
+}
+body{
+    background-color: var(--azulescuro);
+    
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1, h2{
+     font-family: 'pczin';
+}
+header h1{
+   
+    background-color: var(--branco);
+    margin-right: 19em;
+    margin-left: 19em;
+    
+}
+header{
+    background-color: var(--azul);
+    text-align: center;
+    border-radius: 30px;
+    padding: 5px;
+    
+}
+.lista{
+    list-style: none;
+    padding: 0;
+    background-color: var(--laranja);
+    margin-right: 50em;
+    margin-left: 50em;
+    border-radius: 30px;
+   
+}
+.linkzin{
+     
+     display: inline-block; 
+     margin-right: 10px
+}
+.carrinho{
+   
+    color: var(--branco);
+    
+}
+legend{
+    background-color: var(--laranja);
+    text-align: center;
+    border-radius: 30px;
+    font-size: larger;
+}
+main{
+    background-color: var(--cinza);
+}
+section{
+    background-color: var(--cinza);
+}
+footer{
+    background-color: var(--azul);
+    text-align: center;
+    padding-bottom: 1em;
+    border-radius: 230px;
+}
+footer p{
+    color: var(--branco);
+}
+main h1{
+    text-align: center;
+    background-color: var(--branco);
+    padding: 20px;
+    border-radius: 30px;
+    margin-left: 25em;
+    margin-right: 25em;
+}
+main p{
+    text-align: center;
+    font-weight: bold;
+}
+
+label{
+    background-color: var(--branco);
+    font-weight: bolder;
+    
+}
+div{
+    text-align: center;
+}
+.calcular{
+    background-color: var(--laranja);
+    border-radius: 30px;
+}
